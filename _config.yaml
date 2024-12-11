@@ -1,3 +1,11 @@
 theme: jekyll-theme-cayman
 title: Bryn's Notes
 baseurl: /Notes
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /posts/:title:output_ext
